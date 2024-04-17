@@ -28,7 +28,7 @@ namespace Asp.NetCore.ProductsAPI.Controllers
         {
             if (_products == null)
             {
-                return NotFound();
+                return NotFound(); 
             }
             return Ok(_products);
         }
